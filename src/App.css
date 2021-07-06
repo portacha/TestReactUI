@@ -1,38 +1,427 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+html{
+  background-color: gray;
+}
+ 
+#root{
+  background-color: white;
+  height: 912px;
+  width: 375px;
+  margin: auto;
+  padding-top: 5px;
+  overflow: hidden;
+}
+
+.home {
+  width: 375px;
+  height: 812px;
+  margin: auto;
+  background-color: var(--white);
+  display: block;
+}
+
+.Rectangle-Copy-11 {
+  width: 375px;
+  height: 177px;
+  padding: 0 0 73px;
+  border-radius: 16px;
+  background-image: linear-gradient(#ffffff00, #22a8d233);
+}
+
+.Hola-Jos {
+  width: auto;
+  width: 100%;
+  text-align: center;
+  margin: 69px 0px -1px 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #333333;
+}
+
+.Rectangle-Copy-8 {
+  width: 60%;
+  height: 86px;
+  margin: auto;
+  padding: 12px 55px 12px 12px;
+  border-radius: 4px;
+  box-shadow: 0 1px 9px 0 rgb(56 56 56 / 20%);
+  background-color: white;
+  z-index: 9;
+  
+  position: relative;
+  
+}
+.Rectangle-Copy-8 p {
+  margin-top: 0;;
+
+}
+.SALDO-DISPONIBLE {
+  width: 134px;
+  height: 15px;
+  margin: 0 99px 7px 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #333333;
+}
+
+h1 a{
+  width: 233px;
+  height: 40px;
+  margin: 7px 0 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 34px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  color: #bb64c8;
+  text-decoration: none;
+}
+
+.pepeshabot {
+  width: 24px;
+  height: 24px;
+  top: -22px;
+  right: -80%;
+  background-size: cover;
+  border-radius: 50px;
+  position: relative;
+
+}
+
+.ActionsContainer {
+  cursor: pointer;
+  color: white;
+  width: 100%;
+  height: 116px;
+  font-size: 21px;
+  margin: -16px 0 182px;
+  background-color: #783183;
+  flex: auto;
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ActionsContainer .icons{
+  width: 78px;
+  margin: 10px 5% 0px 5%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ActionsContainer p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 8px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--white);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pagos{
+  width: 300px;
+  height: 186px;
+  margin: auto;
+  padding: 12px 13px 12px 12px;
+  border-radius: 4px;
+  box-shadow: 0 1px 9px 0 rgb(56 56 56 / 20%);
+  background-color: #ffff;
+}
+.bot{
+  position: relative;
+    top: 0px;
+    margin: -200px auto 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bot p{  
+  margin: 8px 58px 4px 0;
+}
+
+.nextMount{
+  width: 211px;
+  height: 40px;
+  font-size: 28px;
+  margin: 0px 64px 8px 0;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #333333;
+}
+
+.nextDatePayment{
+  width: 118px;
+  height: 18px;
+  margin: 4px 37px 12px 0;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.89;
+  letter-spacing: normal;
+  color: #333333;
+}
+
+.pagarAhoraButton{
+  cursor: pointer;
+  background-color: #5acaee;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  color:white;
+  font-size: 12px;
+  font-weight: 600;
+  top: 9px;
+  right: 0px;
+  position: absolute;
+}
+
+.pagarAhoraButton:hover{
+  transition: all .5s;
+  background-color: #4db3d4;
+}
+
+.pagos .icons{
   display: flex;
-  flex-direction: column;
+  margin: 0px 27px 0 9px;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #333333;
+  align-content: center;
+  justify-content: space-between;
+  align-items: baseline;
+
+}
+
+.pagos .icons svg{
+  width: 15px;
+  height: 12px;
+  margin: 11px 8px 2px 0;
+  color: #5acaee;
+}
+
+.movimientosTitle{
+  width: 221px;
+  height: 32px;
+  margin: 21px 30px 16px 20px;
+  font-size: 26px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #333333;
+}
+
+.imageMovimientos{
+  width: 44px;
+  height: 44px;
+  margin: 19px 0px 12.5px 18px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  
+  margin-right: 15px;
+}
+
+.movimientosElements{
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content: center;
+  width: 76%;
 }
 
-.App-link {
-  color: #61dafb;
+.movimientosElementsIMG{
+  display: flex;
+  align-items: center;
+  align-content: center;
+    border-bottom: solid 0.5px #bbbbbba4;;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.elementMFR{
+  padding-right: 20px;
+text-align: right;
 }
+
+.movimientosBox{
+  height: 250px;
+  overflow: scroll;
+}
+.menu{
+  width: 375px;
+  display: flex;
+  margin-top: -30px;
+  position: fixed;
+  z-index: 9999999;
+  height: 82px;
+  bottom: 0;
+  border-radius: 10px;
+  border: solid 0.5px rgba(9, 22, 31, 0.3);
+  background-color: white;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Disposicin {
+  width: 248px;
+  height: 32px;
+  margin: 21px 90px 17px 0px;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #333333;
+}
+
+.prestamo{
+  height: 120vh;
+  padding: 30px 37px;
+  background-image: linear-gradient(#ffffff00, #22a8d233);
+  position: relative;
+
+}
+.prestamoNav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.prestamoNav a{
+
+  text-decoration: none;
+}
+
+.disposicionBox{
+  position: relative;
+  width: 100%;
+  height: 120px;
+  border-radius: 4px;
+  box-shadow: 0 1px 9px 0 rgba(56, 56, 56, 0.2);
+  background-color:white;
+  
+}
+
+.disposicionBox p{
+  margin: 20px 20px;
+  font-size: 14px;
+  position: absolute;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  color: #333333;
+}
+
+.disposicionBox h2
+  {
+    position: absolute;
+    top: 21px;
+    left: 20px;
+    width: 200px;
+    height: 40px;
+    font-size: 34px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    color: #bb64c8;
+  }
+
+  .inputs{
+    display: flex;
+    width: 260px;
+    height: 40px;
+    margin: 24px 37px 12px 0px;
+    border-radius: 4px;
+    border: solid 1px #5acaee;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    padding: 0px 20px;
+    letter-spacing: normal;
+    color: #333333;
+    align-items: center;
+  }
+
+
+  /*Knob*/
+
+  .knob{
+    position: relative;
+    outline: none;
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .textPrestamo{
+    top: -149px;
+    text-align: center;
+    position: relative;
+    z-index: 999;
+    font-size: 11px;
+    color:#222b45;
+  }
+
+  .textPrestamoMes{
+    top: -104px;
+    text-align: center;
+    position: relative;
+    z-index: 999;
+    font-size: 13px;
+  }
+
+  .textPrestamoInteres{
+    top: -104px;
+    text-align: center;
+    position: relative;
+    z-index: 999;
+    font-size: 11px;
+    color:#5acaee;
+  }
+
+  .pedirPrestamoButton{
+    width: 100%;
+    cursor: pointer;
+    background-color: #5acaee;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 21px;
+    font-weight: 400;
+    right: 0px;
+  }

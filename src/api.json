@@ -1,0 +1,38 @@
+{
+    "saldoDisponible":1499970.00,
+    "name":"Axel",
+    "profileImage":"https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "paymentNext":{
+        "cost":28860.00,
+        "fechaCorte":16012021
+    },
+    "logros":27260.00,
+    "comprasTDC":1600.00,
+    "movements":[
+        {
+            "name":"Auto",
+            "cost":350000.00,
+            "tag":"Mis logros",
+            "time":1625498058902,
+            "image":"https://elplanetaurbano.com/wp-content/uploads/2019/03/Motores11.jpg"
+        },{
+            "name":"CFE",
+            "cost":280.00,
+            "tag":"Pago de servicio",
+            "time":1625498058902,
+            "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Netflix_icon.svg/1200px-Netflix_icon.svg.png"
+        },{
+            "name":"Netflix",
+            "cost":140.00,
+            "tag":"Suscripciones",
+            "time":1625498058902,
+            "image":"https://upload.wikimedia.org/wikipedia/commons/b/b9/Comisi%C3%B3n_Federal_de_Electricidad_%28logo%29.jpg"
+        },{
+            "name":"Soriana Paquete Delta",
+            "cost":140.00,
+            "tag":"Suscripciones",
+            "time":1625498058902,
+            "image":"https://upload.wikimedia.org/wikipedia/commons/b/b9/Comisi%C3%B3n_Federal_de_Electricidad_%28logo%29.jpg"
+        }
+    ]
+}
